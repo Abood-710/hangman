@@ -20,4 +20,4 @@ setup(
     provides=[
         "{} ({})".format(name, version),
     ],
-)
+) 
