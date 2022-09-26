@@ -3,7 +3,7 @@ try:
 except ImportError as error:
     from distutils.core import setup
 
-name = "Hangman"
+name = "hangman"
 version = "1.0"
 
 setup(
@@ -14,7 +14,7 @@ setup(
     author_email="aboodagl710@gmail.com",
     maintainer=" You! ",
     url="https://git.yseq.net:3333/abdullah/Hangman",
-    py_modules=['Hangman'],
+    py_modules=['hangman'],
     zip_safe=False,
     install_requires=[],
     provides=[
